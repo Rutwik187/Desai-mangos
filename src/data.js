@@ -25,6 +25,7 @@ import celeb6 from "./img/amitabhBachan.jpeg"
 import celeb7 from "./img/gadkari.jpeg"
 import celeb8 from "./img/raj-thakre.jpeg"
 import celeb9 from "./img/atal-bihari-vajpai.jpeg"
+import celeb10 from "./img/former-cm.jpeg"
 
 import socialWork1 from "./img/socialWork1.jpg"
 
@@ -121,13 +122,20 @@ export const productData = [
 export const celebsTestimonials = [
     {
         desc: 'We have grown over the years and take pride in offering our products nationwide. One highlight was gifting our finest mangoes to actor Amitabh Bachchan. He graciously accepted our gift and sent a letter of thanks, expressing his appreciation for the kind gesture and delicious mangoes. His gratitude reflects his humility.',
-        name: "Amitabh Bachchan",
+        name: "Shi. Amitabh Bachchan",
         profession: "Actor and Politician",
         img: celeb6
     },
     {
+        desc: 'We had the pleasure of meeting Former Deputy Chief Minister of Maharashtra R R Patil and Shri Sunil Tatkare, and gifting him a basket of our finest mangoes. It was an honor to share our passion for mangoes with such a distinguished individual, and we were thrilled with his gracious acceptance of our gift.',
+        name: "Shri. R R Pati and Shri. Sunil Tatkare",
+        profession: "Former Deputy Chief Minister of Maharashtra",
+        img: celeb10
+    },
+
+    {
         desc: 'We take pride in growing sustainable and ethical mangoes. Recently, we gifted a basket of our best mangoes to Nitin Gadkari, the Union Minister for Road Transport, Highways, and Shipping, who appreciated our commitment to preserving and fulfilling the demand for mango. His letter of appreciation acknowledges our efforts to make a positive impact through social and cultural work. It is an honor to have received such recognition.',
-        name: "Nitin Gadkari",
+        name: "Shri. Nitin Gadkari",
         profession: "Road and Transport Minister, Government of India",
         img: celeb7
     },
@@ -151,7 +159,7 @@ export const celebsTestimonials = [
     },
     {
         desc: 'Desai Bandhu is committed to providing high-quality mangoes using sustainable and ethical practices. We recently gifted Raj Thackeray, the founding chairperson of MNS, a box of our finest mangoes, which he graciously accepted. It was an honor to share our passion for mangoes with him.',
-        name: "Raj Thakery",
+        name: "Shri. Raj Thakery",
         profession: "Politician",
         img: celeb8
     },
