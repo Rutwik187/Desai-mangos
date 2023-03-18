@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import logo from "../img/logo.png";
 
 const Footer = () => {
@@ -107,30 +108,38 @@ const Footer = () => {
               <nav aria-label="Footer Services Nav" className="mt-8">
                 <ul className="space-y-4 text-sm">
                   <li>
-                    <a
+                    <Link
+                      to="/devgad"
                       className="text-gray-700 transition hover:text-gray-700/75"
-                      href="/"
                     >
                       Devgad
-                    </a>
+                    </Link>
                   </li>
 
                   <li>
                     <a
                       className="text-gray-700 transition hover:text-gray-700/75"
-                      href="/"
+                      href="/ratnagari"
                     >
-                      Ratnagari{" "}
+                      Ratnagiri{" "}
                     </a>
                   </li>
 
                   <li>
-                    <a
+                    <Link
+                      to="/pawas"
                       className="text-gray-700 transition hover:text-gray-700/75"
-                      href="/"
                     >
                       Pawas
-                    </a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="/amrut-pairi"
+                      className="text-gray-700 transition hover:text-gray-700/75"
+                    >
+                      Amrut Pairi
+                    </Link>
                   </li>
                 </ul>
               </nav>
@@ -151,30 +160,45 @@ const Footer = () => {
                   </li>
 
                   <li>
-                    <a
+                    <Link
+                      to="/about-us"
                       className="text-gray-700 transition hover:text-gray-700/75"
-                      href="/"
                     >
                       About Us
-                    </a>
+                    </Link>
                   </li>
 
                   <li>
-                    <a
+                    <Link
+                      to="/gallery"
                       className="text-gray-700 transition hover:text-gray-700/75"
-                      href="/"
                     >
                       Gallery
-                    </a>
+                    </Link>
                   </li>
 
                   <li>
                     <a
                       className="group flex justify-center gap-1.5 sm:justify-start"
-                      href="/"
+                      href="https://wa.me/919822052638"
                     >
                       <span className="text-gray-700 transition group-hover:text-gray-700/75">
-                        Live Chat
+                        Live Chat Shanipar
+                      </span>
+
+                      <span className="relative flex h-2 w-2">
+                        <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-teal-400 opacity-75"></span>
+                        <span className="relative inline-flex h-2 w-2 rounded-full bg-teal-500"></span>
+                      </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      className="group flex justify-center gap-1.5 sm:justify-start"
+                      href="https://wa.me/919850000093"
+                    >
+                      <span className="text-gray-700 transition group-hover:text-gray-700/75">
+                        Live Chat At Baner
                       </span>
 
                       <span className="relative flex h-2 w-2">
