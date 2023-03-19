@@ -44,10 +44,10 @@ const Gallery = () => {
           <div class="w-full px-4 lg:w-1/2 xl:w-5/12">
             <div class="mt-10 lg:mt-0">
               {/* <span class="text-textColorYellow mb-2 block text-lg font-semibold">
-                Celebrities who love our mangos
+                Celebrities who love our mangoes
               </span> */}
               <h2 class="text-dark mb-8 text-3xl font-bold sm:text-4xl">
-                Celebrities who love our mangos
+                Celebrities who love our mangoes
               </h2>
               <p class="text-body-color mb-8 text-base">
                 Our commitment to excellence has allowed us to grow and expand

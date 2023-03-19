@@ -198,6 +198,21 @@ const Footer = () => {
                       href="https://wa.me/919850000093"
                     >
                       <span className="text-gray-700 transition group-hover:text-gray-700/75">
+                        Live Chat At Karve Road
+                      </span>
+
+                      <span className="relative flex h-2 w-2">
+                        <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-teal-400 opacity-75"></span>
+                        <span className="relative inline-flex h-2 w-2 rounded-full bg-teal-500"></span>
+                      </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      className="group flex justify-center gap-1.5 sm:justify-start"
+                      href="https://wa.me/919850000093"
+                    >
+                      <span className="text-gray-700 transition group-hover:text-gray-700/75">
                         Live Chat At Baner
                       </span>
 

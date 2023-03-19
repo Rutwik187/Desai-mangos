@@ -19,7 +19,7 @@ const LifeCycle = () => {
           <img class="timeline_icon" src={handPicked} alt="" />
 
           <div class="timeline_content">
-            <h2>We hand-pick our mangos:</h2>
+            <h2>We hand-pick our mangoes:</h2>
             <p>
               Mangoes are carefully handpicked and systematically packed in
               wooden boxes (peti)
@@ -46,7 +46,7 @@ const LifeCycle = () => {
           <img class="timeline_icon" src={mango} alt="" />
 
           <div class="timeline_content">
-            <h2>Ripening of the mangos:</h2>
+            <h2>Ripening of the mangoes:</h2>
             <p>
               Ripening process of the mangoes takes place naturally in the
               temperature manintained in the store house.
@@ -61,7 +61,7 @@ const LifeCycle = () => {
           <div class="timeline_content">
             <h2>Love from the costumers:</h2>
             <p>
-              Mangos are ready to eat and then customer enjoys pure and best
+              Mangoes are ready to eat and then customer enjoys pure and best
               quality Desai Bandhu's Mangoes.
             </p>
           </div>

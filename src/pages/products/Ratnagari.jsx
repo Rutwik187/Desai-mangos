@@ -16,7 +16,7 @@ const Ratnagari = () => {
               fruits
             </h2>
             <h1 className="text-gray-900 text-3xl title-font font-medium mb-1">
-              Ratnagiri Alphonso Mangos
+              Ratnagiri Alphonso Mangoes
             </h1>
 
             <p className="leading-relaxed my-4">

@@ -56,7 +56,7 @@ export const heroData = [
     },
     {
         id: 2,
-        name: "Ratnagari",
+        name: "Ratnagiri",
         imageSrc: mango3,
     },
     {
@@ -102,7 +102,7 @@ export const productData = [
     },
 
     {
-        title: "Ratnagari",
+        title: "Ratnagiri",
         img: mango3,
         linkTo: "/ratnagari"
     },
@@ -232,7 +232,7 @@ export const customerReviews = [
     },
     {
         desc: "I recently ordered a box of mangoes from Desai Bandhu, and I have to say, I was blown away by the quality. The mangoes were perfectly ripe, juicy, and bursting with flavor. It's clear that Desaibandhu takes pride in what they do, and it shows in the quality of their product. I will definitely be ordering from them again!",
-        name: "Vanita T.",
+        name: "Vikrant T.",
         img: maleAvatar3
     },
     {
