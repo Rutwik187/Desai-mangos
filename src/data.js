@@ -4,6 +4,9 @@ import mango3 from "./img/mango3.png";
 import mango4 from "./img/mango4.png";
 import mango5 from "./img/mango5.png";
 import mango6 from "./img/amrut-pairi-mango.png"
+import faral from "./img/faral.png"
+import ganeshMurti from "./img/ganeshMurti.png"
+import modak from "./img/modak.png"
 
 import feature1 from "./img/sinceHero.svg"
 import feature2 from "./img/feature2.png"
@@ -28,7 +31,6 @@ import celeb9 from "./img/atal-bihari-vajpai.jpeg"
 import celeb10 from "./img/former-cm.jpeg"
 
 import socialWork1 from "./img/socialWork1.jpg"
-
 import socialWork2 from "./img/socialWork2.jpeg"
 import socialWork3 from "./img/socialWork3.jpeg"
 import socialWork4 from "./img/socialWork4.jpeg"
@@ -115,6 +117,21 @@ export const productData = [
         title: "Amrut Pairi",
         img: mango6,
         linkTo: "/amrut-pairi"
+    },
+    {
+        title: "Faral",
+        img: faral,
+        linkTo: "/faral"
+    },
+    {
+        title: "Ganesh Murti",
+        img: ganeshMurti,
+        linkTo: "/ganesh-murti"
+    },
+    {
+        title: "Modak",
+        img: modak,
+        linkTo: "/modak"
     },
 
 ]

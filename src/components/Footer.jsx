@@ -180,7 +180,7 @@ const Footer = () => {
                   <li>
                     <a
                       className="group flex justify-center gap-1.5 sm:justify-start"
-                      href="https://wa.me/919822052638"
+                      href="https://wa.me/c/919021538564"
                     >
                       <span className="text-gray-700 transition group-hover:text-gray-700/75">
                         Live Chat Shanipar
@@ -251,8 +251,9 @@ const Footer = () => {
                     </svg>
 
                     <span className="text-gray-700">
-                      <a href="mailto:desaibandhuambewale@gmail.com"></a>
-                      desaibandhuambewale@gmail.com
+                      <a href="mailto:desaibandhuambewale@gmail.com">
+                        desaibandhuambewale@gmail.com
+                      </a>
                     </span>
                   </a>
                 </li>
@@ -278,13 +279,13 @@ const Footer = () => {
                     </svg>
 
                     <span className="text-gray-700">
-                      <a href="tel:9850000093"></a>9822052638,
+                      <a href="tel:9822052638">9822052638,</a>
                     </span>
                     <span className="text-gray-700">
-                      <a href="tel:9850000093"></a>9850000093,
+                      <a href="tel:9850000093">9850000093,</a>
                     </span>
                     <span className="text-gray-700">
-                      <a href="tel:9850000093"></a>9422100093
+                      <a href="tel:9422100093">9422100093</a>
                     </span>
                   </a>
                 </li>

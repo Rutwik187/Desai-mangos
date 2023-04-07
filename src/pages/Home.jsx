@@ -15,7 +15,7 @@ function Home() {
   return (
     <div className="w-screen h-auto flex flex-col bg-primary">
       <HomeContainer />
-      <CarouselCompo />
+      {/* <CarouselCompo /> */}
       {/* <HomeImagesSlider /> */}
       <Features />
       <HomeProducts />

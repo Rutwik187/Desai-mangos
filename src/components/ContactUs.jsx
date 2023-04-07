@@ -12,14 +12,14 @@ const ContactUs = () => {
           <div>
             <label
               for="email"
-              className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+              className="block mb-2 text-sm font-medium text-gray-900"
             >
               Your email
             </label>
             <input
               type="email"
               id="email"
-              className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-textColorYellow focus:border-textColorYellow block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+              className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-textColorYellow focus:border-textColorYellow block w-full p-2.5 "
               placeholder="name@flowbite.com"
               required
             />
@@ -34,7 +34,7 @@ const ContactUs = () => {
             <input
               type="text"
               id="subject"
-              className="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-textColorYellow focus:border-textColorYellow dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+              className="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-textColorYellow focus:border-textColorYellow "
               placeholder="Let us know how we can help you"
               required
             />
@@ -49,13 +49,13 @@ const ContactUs = () => {
             <textarea
               id="message"
               rows="6"
-              className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-textColorYellow focus:border-textColorYellow dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+              className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-textColorYellow focus:border-textColorYellow "
               placeholder="Leave a comment..."
             ></textarea>
           </div>
           <button
             type="submit"
-            className="text-white bg-[#FF9119] hover:bg-[#FF9119]/80 focus:ring-4 focus:outline-none focus:ring-[#FF9119]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:hover:bg-[#FF9119]/80 dark:focus:ring-[#FF9119]/40 mr-2 mb-2"
+            className="text-white bg-[#FF9119] hover:bg-[#FF9119]/80 focus:ring-4 focus:outline-none focus:ring-[#FF9119]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:hover:bg-[#FF9119]/80 "
           >
             Send message
           </button>

@@ -25,7 +25,7 @@ const Banner = () => {
 
         <button
           type="button"
-          className=" w-full mt-8 inline-block py-4 text-sm font-bold uppercase tracking-widest  text-white bg-[#FF9119] hover:bg-[#FF9119]/80 focus:ring-4 focus:outline-none focus:ring-[#FF9119]/50 dark:hover:bg-[#FF9119]/80 dark:focus:ring-[#FF9119]/40 "
+          className=" w-full mt-8 inline-block py-4 text-sm font-bold uppercase tracking-widest  text-white bg-[#FF9119] hover:bg-[#FF9119]/80 focus:ring-4 focus:outline-none focus:ring-[#FF9119]/50  "
         >
           Buy Now
         </button>

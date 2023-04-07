@@ -30,7 +30,7 @@ const AboutUs = () => {
                 chemicals and are naturally ripened. Our mission is to provide
                 our customers with the authentic and natural taste of mangoes.
               </p>
-              <p>
+              <p className="mb-6 text-lg font-normal text-gray-500 lg:text-xl">
                 We believe in sustainable farming practices and taking care of
                 our environment. We are committed to providing the best quality
                 and naturally ripened mangoes to our customers, whether they are
