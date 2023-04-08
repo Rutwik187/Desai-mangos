@@ -141,6 +141,30 @@ const Footer = () => {
                       Amrut Pairi
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      to="/faral"
+                      className="text-gray-700 transition hover:text-gray-700/75"
+                    >
+                      Faral
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="/ganesh-murti"
+                      className="text-gray-700 transition hover:text-gray-700/75"
+                    >
+                      Ganpati Murti
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="/modak"
+                      className="text-gray-700 transition hover:text-gray-700/75"
+                    >
+                      Modak
+                    </Link>
+                  </li>
                 </ul>
               </nav>
             </div>
