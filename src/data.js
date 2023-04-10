@@ -49,6 +49,15 @@ import HomeGalleryImage4 from "./img/homeGallery4.jpg"
 import HomeGalleryImage5 from "./img/homeGallery5.jpg"
 import HomeGalleryImage6 from "./img/karach-lisence.jpeg"
 
+import ganeshImage1 from "./img/modak-1.jpg"
+import ganeshImage2 from "./img/modak-2.jpg"
+import ganeshImage3 from "./img/modak-3.jpg"
+
+import faralImage1 from "./img/faral-1.jpg"
+import faralImage2 from "./img/faral-2.jpg"
+import faralImage3 from "./img/faral-3.jpg"
+import faralImage4 from "./img/faral-4.jpg"
+
 
 export const heroData = [
     {
@@ -231,6 +240,24 @@ export const socialWork = [
     { img: socialWork4 },
     { img: socialWork5 }
 
+]
+export const ganeshImages = [
+    {
+        img: ganeshImage1
+    },
+    {
+        img: ganeshImage2
+    },
+    {
+        img: ganeshImage3
+    }
+]
+
+export const faralImages = [
+    { img: faralImage1 },
+    { img: faralImage2 },
+    { img: faralImage3 },
+    { img: faralImage4 },
 ]
 
 export const customerReviews = [

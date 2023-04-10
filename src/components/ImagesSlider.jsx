@@ -1,9 +1,8 @@
-import { celebs } from "../data";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-const ImagesSlider = () => {
+const ImagesSlider = (props) => {
   const settings = {
     dots: true,
     infinite: false,
@@ -42,11 +41,11 @@ const ImagesSlider = () => {
   return (
     <div className="w-auto my-6 md:my-24 flex flex-col md:gap-0 ">
       <h1 className="font-semibold leading-none tracking-tight text-gray-900 text-2xl md:text-3xl lg:text-4xl ">
-        Politicians
+        {props.title}
       </h1>
       <div className=" md:flex-row flex-col justify-center items-center gap-y-12 md:gap-x-14 lg:gap-x-24  ">
         <Slider {...settings}>
-          {celebs.map((item, index) => (
+          {props.images.map((item, index) => (
             <div
               key={index}
               className="min-w-300 h-[270px]  md:w-300 overflow-hidden  rounded-lg   my-6  backdrop-blur-lg hover:drop-shadow-lg flex flex-col items-center justify-evenly relative "

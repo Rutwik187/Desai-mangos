@@ -4,8 +4,9 @@ import rajThakre from "../img/raj-thakre.jpeg";
 import amitabhBacchan from "../img/amitabhBachan.jpeg";
 import dhoni from "../img/dhoni.jpeg";
 import ImagesSlider from "./ImagesSlider";
-import SocialWorkSlider from "./SocialWorkSlider";
 import Instagram from "./Instagram";
+
+import { celebs, socialWork } from "../data";
 
 const Gallery = () => {
   return (
@@ -72,8 +73,8 @@ const Gallery = () => {
       </div>
 
       <ZoomGallery />
-      <ImagesSlider />
-      <SocialWorkSlider />
+      <ImagesSlider images={celebs} title="Politician" />
+      <ImagesSlider images={socialWork} title="Social Work" />
       <Instagram />
     </section>
   );

@@ -37,7 +37,7 @@ export default function Navbar() {
                   <div className="flex w-full items-center justify-between md:w-auto">
                     <Link to="/">
                       <img
-                        className="h-8 mr-3 sm:h-10"
+                        className="h-14 mr-3 sm:h-16"
                         src={logo}
                         alt="Comapany logo"
                       />

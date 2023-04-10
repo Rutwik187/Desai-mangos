@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../img/logo.png";
+import ProductsDropDown from "./ProductsDropdown";
 
 const Footer = () => {
   return (
@@ -107,38 +108,14 @@ const Footer = () => {
 
               <nav aria-label="Footer Services Nav" className="mt-8">
                 <ul className="space-y-4 text-sm">
-                  <li>
-                    <Link
-                      to="/devgad"
-                      className="text-gray-700 transition hover:text-gray-700/75"
-                    >
-                      Devgad
-                    </Link>
-                  </li>
-
-                  <li>
-                    <a
-                      className="text-gray-700 transition hover:text-gray-700/75"
-                      href="/ratnagari"
-                    >
-                      Ratnagiri{" "}
-                    </a>
-                  </li>
+                  <ProductsDropDown />
 
                   <li>
                     <Link
-                      to="/pawas"
+                      to="/ganesh-murti"
                       className="text-gray-700 transition hover:text-gray-700/75"
                     >
-                      Pawas
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      to="/amrut-pairi"
-                      className="text-gray-700 transition hover:text-gray-700/75"
-                    >
-                      Amrut Pairi
+                      Ganesh Murti
                     </Link>
                   </li>
                   <li>
@@ -146,23 +123,7 @@ const Footer = () => {
                       to="/faral"
                       className="text-gray-700 transition hover:text-gray-700/75"
                     >
-                      Faral
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      to="/ganesh-murti"
-                      className="text-gray-700 transition hover:text-gray-700/75"
-                    >
-                      Ganpati Murti
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      to="/modak"
-                      className="text-gray-700 transition hover:text-gray-700/75"
-                    >
-                      Modak
+                      Diwali Faral
                     </Link>
                   </li>
                 </ul>

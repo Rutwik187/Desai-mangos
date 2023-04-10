@@ -1,5 +1,8 @@
 import React from "react";
 import faralFull from "../../img/faral-full.jpg";
+import BuyNowButtons from "../../components/BuyNowButtons";
+import ImagesSlider from "../../components/ImagesSlider";
+import { faralImages } from "../../data";
 
 const Faral = () => {
   return (
@@ -15,8 +18,8 @@ const Faral = () => {
             <h2 className="text-sm title-font text-gray-500 tracking-widest">
               Snacks
             </h2>
-            <h1 className="text-gray-900 text-3xl title-font font-medium mb-1">
-              faralFull
+            <h1 className="text-yellow-600 text-3xl title-font font-medium mb-1">
+              Diwali Faral
             </h1>
 
             <p className="leading-relaxed my-4">
@@ -26,43 +29,23 @@ const Faral = () => {
               Chivda, Shankarpali, Shev, Karanji, Anarse, and more are made with
               only the highest quality ingredients and traditional cooking
               techniques. We also offer a Traditional Diwali Faral Daba and
-              other special Diwali products. We offer door delivery across India
-              and to select countries. Celebrate Diwali with us and experience
-              the true flavors of India. Shop now on our website.
+              other special Diwali products.
+              <mark>
+                {" "}
+                We offer door delivery across India and all over the globe{" "}
+              </mark>
+              . Celebrate Diwali with us and experience the true flavors of
+              India.
             </p>
 
             <h1 className="text-textColorYellow text-2xl title-font font-bold mb-1">
               Buy Now At:
             </h1>
 
-            <div className="flex gap-4 items-center">
-              <a href="https://wa.me/c/919850000093">
-                <button
-                  type="button"
-                  className="text-white bg-[#FF9119] hover:bg-[#FF9119]/80 focus:ring-4 focus:outline-none focus:ring-[#FF9119]/50  dark:hover:bg-[#FF9119]/80 dark:focus:ring-[#FF9119]/40 p-3 font-medium rounded-lg text-sm ppy-2 px-6 text-center inline-flex items-center justify-center"
-                >
-                  Baner
-                </button>
-              </a>
-              <a href="https://wa.me/c/919850000093">
-                <button
-                  type="button"
-                  className="text-white bg-[#FF9119] hover:bg-[#FF9119]/80 focus:ring-4 focus:outline-none focus:ring-[#FF9119]/50  dark:hover:bg-[#FF9119]/80 dark:focus:ring-[#FF9119]/40 p-3 font-medium rounded-lg text-sm ppy-2 px-6 text-center inline-flex items-center justify-center"
-                >
-                  Karve Road
-                </button>
-              </a>
-              <a href="https://wa.me/c/919021538564">
-                <button
-                  type="button"
-                  className="text-white bg-[#FF9119] hover:bg-[#FF9119]/80 focus:ring-4 focus:outline-none focus:ring-[#FF9119]/50  dark:hover:bg-[#FF9119]/80 dark:focus:ring-[#FF9119]/40 p-3 font-medium rounded-lg text-sm ppy-2 px-6 text-center inline-flex items-center justify-center"
-                >
-                  Shanipar
-                </button>
-              </a>
-            </div>
+            <BuyNowButtons />
           </div>
         </div>
+        <ImagesSlider images={faralImages} title="" />
       </div>
     </section>
   );

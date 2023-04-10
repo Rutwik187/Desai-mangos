@@ -12,7 +12,6 @@ import ScrollToTop from "./scrollToTop";
 
 import Gallery from "./components/Gallery";
 import AmrutPairi from "./pages/products/AmrutPairi";
-import Modak from "./pages/products/Modak";
 import GanpatiMurti from "./pages/products/GanpatiMurti";
 import Faral from "./pages/products/Faral";
 
@@ -33,7 +32,6 @@ const App = () => {
         <Route path="/amrut-pairi" element={<AmrutPairi />} />
         <Route path="/faral" element={<Faral />} />
         <Route path="/ganesh-murti" element={<GanpatiMurti />} />
-        <Route path="/modak" element={<Modak />} />
       </Routes>
       <Footer />
     </BrowserRouter>
