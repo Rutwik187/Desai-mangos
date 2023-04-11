@@ -59,7 +59,7 @@ const LifeCycle = () => {
           <img class="timeline_icon" src={love} alt="" />
 
           <div class="timeline_content">
-            <h2>Love from the costumers:</h2>
+            <h2>Love from the customers:</h2>
             <p>
               Mangoes are ready to eat and then customer enjoys pure and best
               quality Desai Bandhu's Mangoes.

@@ -2,6 +2,9 @@ import WhyChooseUs from "../components/WhyChooseUs";
 import shop from "../img/shop.jpeg";
 import mango from "../img/service1.jpeg";
 
+import shop_baner from "../img/shop_baner.jpg";
+import shop_shanipar from "../img/shop_shanipar.jpg";
+
 const AboutUs = () => {
   return (
     <div className="m-6 md:m-12 xl:m-20">
@@ -90,6 +93,20 @@ const AboutUs = () => {
         </div>
       </div>
       <WhyChooseUs />
+      <div className="flex flex-wrap gap-10 justify-center items-center">
+        <div className="max-w-sm">
+          <img src={shop_shanipar} alt="" />
+          <h1 className="text-2xl text-center ">Shanipar</h1>
+        </div>
+        <div className="max-w-sm">
+          <img src={shop} alt="" />
+          <h1 className="text-2xl text-center ">Karve Road</h1>
+        </div>
+        <div className="max-w-sm">
+          <img src={shop_baner} alt="" />
+          <h1 className="text-2xl text-center ">Baner</h1>
+        </div>
+      </div>
     </div>
   );
 };
