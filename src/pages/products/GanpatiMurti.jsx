@@ -9,7 +9,8 @@ import ImagesSlider from "../../components/ImagesSlider";
 const GanpatiMurti = () => {
   return (
     <section className="text-gray-700 body-font overflow-hidden bg-white">
-      <div className="container px-5 py-24 mx-auto">
+      <ImagesSlider images={ganeshImages} title="" />
+      <div className="container px-5 pb-24 mx-auto">
         <div className="lg:w-4/5 mx-auto flex flex-wrap">
           <img
             alt="Mango"
@@ -68,7 +69,6 @@ const GanpatiMurti = () => {
             modak and make your celebrations even more special!
           </p>
         </div>
-        <ImagesSlider images={ganeshImages} title="" />
       </div>
     </section>
   );
