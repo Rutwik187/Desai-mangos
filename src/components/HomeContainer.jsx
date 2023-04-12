@@ -43,6 +43,18 @@ const HomeContainer = () => {
             </span>
             <span className="lg:text-xl">Happy Customers</span>
           </div>
+          <div className="flex flex-col justify-center items-center ">
+            <span className="font-bold text-2xl md:text-3xl lg:text-4xl text-textColorYellow">
+              <CountUp
+                end={1932}
+                start={2023}
+                duration={5}
+                delay={0}
+                // suffix="+"
+              />
+            </span>
+            <span className="lg:text-xl">Since</span>
+          </div>
         </div>
 
         <button

@@ -1,8 +1,9 @@
 import React from "react";
-// import ganeshMurti from "../../img/ganeshMurti.png";
+import ganeshMurti from "../../img/ganpatiMurti2.jpg";
 import BuyNowButtons from "../../components/BuyNowButtons";
 import { ganeshImages } from "../../data";
 import ganeshWithModak from "../../img/modak-real.jpg";
+import HomeImagesSlider from "../../components/GaneshImages";
 
 import modakImage from "../../img/modak-1.jpg";
 
@@ -16,7 +17,7 @@ const GanpatiMurti = () => {
           <img
             alt="Mango"
             className="lg:w-2/5 w-full  object-cover object-center rounded border border-gray-200"
-            src={ganeshWithModak}
+            src={ganeshMurti}
           />
           <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
             <h2 className="text-sm title-font text-gray-500 tracking-widest">
@@ -48,7 +49,7 @@ const GanpatiMurti = () => {
           <h1 className="text-gray-900 text-3xl title-font font-medium mb-1">
             Customize your Ganesh Murti
           </h1>
-          <ImagesSlider images={ganeshImages} title="" />
+          <HomeImagesSlider />
           <p className="leading-relaxed my-4 lg:w-4/5">
             Desai Bandhu is the place to reserve your classic Ganesh Murti.
             Ganesh Murtis come in more than 200 different variations. We employ
@@ -63,7 +64,7 @@ const GanpatiMurti = () => {
           <img
             alt="Mango"
             className="lg:w-2/5 w-full  object-cover object-center rounded border border-gray-200"
-            src={modakImage}
+            src={ganeshWithModak}
           />
           <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
             <h1 className="text-gray-900 text-3xl title-font font-medium mb-1">

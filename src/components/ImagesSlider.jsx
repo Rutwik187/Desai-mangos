@@ -48,7 +48,7 @@ const ImagesSlider = (props) => {
           {props.images.map((item, index) => (
             <div
               key={index}
-              className="min-w-300 h-[270px]  md:w-300 overflow-hidden  rounded-lg   my-6  backdrop-blur-lg hover:drop-shadow-lg flex flex-col items-center justify-evenly relative "
+              className="min-w-300 min-h-400 h-[270px]  md:w-300 overflow-hidden  rounded-lg   my-6  backdrop-blur-lg hover:drop-shadow-lg flex flex-col items-center justify-evenly relative "
             >
               <img
                 className="object-cover w-full h-full"

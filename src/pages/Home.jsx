@@ -7,7 +7,7 @@ import HomeProducts from "../components/HomeProducts";
 import LifeCycle from "../components/LifeCycle";
 
 import Testimonials from "../components/Testimonials";
-import HomeImagesSlider from "../components/HomeImageSlider";
+
 import Carousel from "../components/Carousel";
 import CarouselCompo from "../components/Carousel";
 

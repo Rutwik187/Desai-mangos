@@ -7,6 +7,7 @@ import mango6 from "./img/amrut-pairi-mango.png"
 import faral from "./img/faral.png"
 import ganeshMurti from "./img/ganeshMurti.png"
 import modak from "./img/modak.png"
+import ganehsMurtiNoBg from "./img/ganpatiMurti2removebg.png"
 
 import feature1 from "./img/sinceHero.svg"
 import feature2 from "./img/feature2.png"
@@ -136,7 +137,7 @@ export const productData = [
     },
     {
         title: "Ganesh Murti",
-        img: ganeshWithModak,
+        img: ganehsMurtiNoBg,
         linkTo: "/ganesh-murti"
     },
 
