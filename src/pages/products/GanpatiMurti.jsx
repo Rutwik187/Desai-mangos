@@ -4,14 +4,15 @@ import BuyNowButtons from "../../components/BuyNowButtons";
 import { ganeshImages } from "../../data";
 import ganeshWithModak from "../../img/modak-real.jpg";
 
+import modakImage from "../../img/modak-1.jpg";
+
 import ImagesSlider from "../../components/ImagesSlider";
 
 const GanpatiMurti = () => {
   return (
     <section className="text-gray-700 body-font overflow-hidden bg-white">
-      <ImagesSlider images={ganeshImages} title="" />
       <div className="container px-5 pb-24 mx-auto">
-        <div className="lg:w-4/5 mx-auto flex flex-wrap">
+        <div className="lg:w-4/5 mx-auto flex flex-wrap ">
           <img
             alt="Mango"
             className="lg:w-2/5 w-full  object-cover object-center rounded border border-gray-200"
@@ -47,6 +48,7 @@ const GanpatiMurti = () => {
           <h1 className="text-gray-900 text-3xl title-font font-medium mb-1">
             Customize your Ganesh Murti
           </h1>
+          <ImagesSlider images={ganeshImages} title="" />
           <p className="leading-relaxed my-4 lg:w-4/5">
             Desai Bandhu is the place to reserve your classic Ganesh Murti.
             Ganesh Murtis come in more than 200 different variations. We employ
@@ -56,18 +58,27 @@ const GanpatiMurti = () => {
             Ganpati, Bal Ganesh and many more
           </p>
         </div>
-        <div className="px-6 md:px-16 pt-8 mx-auto">
-          <h1 className="text-gray-900 text-3xl title-font font-medium mb-1">
-            Mango Modak
-          </h1>
-          <p className="leading-relaxed my-4 lg:w-4/5 ">
-            Our delicious and authentic modak is the perfect addition to your
-            festivities. Made with high-quality ingredients and prepared with
-            care, our modak is sure to satisfy your taste buds. Whether you're
-            looking for classic or innovative flavors, we have a variety of
-            options to choose from. So indulge in the goodness of our Ganpati
-            modak and make your celebrations even more special!
-          </p>
+
+        <div className="lg:w-4/5 mx-auto flex flex-wrap ">
+          <img
+            alt="Mango"
+            className="lg:w-2/5 w-full  object-cover object-center rounded border border-gray-200"
+            src={modakImage}
+          />
+          <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+            <h1 className="text-gray-900 text-3xl title-font font-medium mb-1">
+              Mango Modak
+            </h1>
+
+            <p className="leading-relaxed my-4">
+              Our delicious and authentic modak is the perfect addition to your
+              festivities. Made with high-quality ingredients and prepared with
+              care, our modak is sure to satisfy your taste buds. Whether you're
+              looking for classic or innovative flavors, we have a variety of
+              options to choose from. So indulge in the goodness of our Ganpati
+              modak and make your celebrations even more special!
+            </p>
+          </div>
         </div>
       </div>
     </section>

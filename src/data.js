@@ -49,16 +49,17 @@ import HomeGalleryImage4 from "./img/homeGallery4.jpg"
 import HomeGalleryImage5 from "./img/homeGallery5.jpg"
 import HomeGalleryImage6 from "./img/karach-lisence.jpeg"
 
-import ganeshImage1 from "./img/modak-1.jpg"
-import ganeshImage2 from "./img/modak-2.jpg"
-import ganeshImage3 from "./img/modak-3.jpg"
-import ganeshWithModak from "./img/modak-real.jpg"
+import ganeshImage1 from "./img/ganpatiMurti1.jpg"
+import ganeshImage2 from "./img/ganpatiMurti2.jpg"
+import ganeshImage3 from "./img/ganpatiMurti3.jpg"
+
 
 import faralImage1 from "./img/faral-1.jpg"
 import faralImage2 from "./img/faral-2.jpg"
 import faralImage3 from "./img/faral-3.jpg"
 import faralImage4 from "./img/faral-4.jpg"
 
+import ganeshWithModak from "./img/modak-real.jpg"
 
 export const heroData = [
     {
