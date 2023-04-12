@@ -1,7 +1,8 @@
 import React from "react";
-import ganeshMurti from "../../img/ganeshMurti.png";
+// import ganeshMurti from "../../img/ganeshMurti.png";
 import BuyNowButtons from "../../components/BuyNowButtons";
 import { ganeshImages } from "../../data";
+import ganeshWithModak from "../../img/modak-real.jpg";
 
 import ImagesSlider from "../../components/ImagesSlider";
 
@@ -13,11 +14,11 @@ const GanpatiMurti = () => {
           <img
             alt="Mango"
             className="lg:w-2/5 w-full  object-cover object-center rounded border border-gray-200"
-            src={ganeshMurti}
+            src={ganeshWithModak}
           />
           <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
             <h2 className="text-sm title-font text-gray-500 tracking-widest">
-              Murtis
+              Murti
             </h2>
             <h1 className="text-gray-900 text-3xl title-font font-medium mb-1">
               Ganesh Murti
@@ -41,7 +42,7 @@ const GanpatiMurti = () => {
             <BuyNowButtons />
           </div>
         </div>
-        <div className="px-16 pt-24 mx-auto">
+        <div className="px-6 md:px-16 pt-24 mx-auto">
           <h1 className="text-gray-900 text-3xl title-font font-medium mb-1">
             Customize your Ganesh Murti
           </h1>
@@ -54,11 +55,11 @@ const GanpatiMurti = () => {
             Ganpati, Bal Ganesh and many more
           </p>
         </div>
-        <div className="px-16 pt-8 mx-auto">
+        <div className="px-6 md:px-16 pt-8 mx-auto">
           <h1 className="text-gray-900 text-3xl title-font font-medium mb-1">
             Mango Modak
           </h1>
-          <p className="leading-relaxed my-4 lg:w-4/5">
+          <p className="leading-relaxed my-4 lg:w-4/5 ">
             Our delicious and authentic modak is the perfect addition to your
             festivities. Made with high-quality ingredients and prepared with
             care, our modak is sure to satisfy your taste buds. Whether you're

@@ -52,6 +52,7 @@ import HomeGalleryImage6 from "./img/karach-lisence.jpeg"
 import ganeshImage1 from "./img/modak-1.jpg"
 import ganeshImage2 from "./img/modak-2.jpg"
 import ganeshImage3 from "./img/modak-3.jpg"
+import ganeshWithModak from "./img/modak-real.jpg"
 
 import faralImage1 from "./img/faral-1.jpg"
 import faralImage2 from "./img/faral-2.jpg"
@@ -134,14 +135,10 @@ export const productData = [
     },
     {
         title: "Ganesh Murti",
-        img: ganeshMurti,
+        img: ganeshWithModak,
         linkTo: "/ganesh-murti"
     },
-    {
-        title: "Modak",
-        img: modak,
-        linkTo: "/modak"
-    },
+
 
 ]
 
