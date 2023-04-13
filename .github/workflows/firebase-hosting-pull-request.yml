@@ -13,5 +13,5 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_DESAI_MANGOS_GITHUB }}'
-          projectId: desai-mangos-github
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_DESAI_MANGOS_EAFCA }}'
+          projectId: desai-mangos-eafca
