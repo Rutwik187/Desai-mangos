@@ -86,11 +86,20 @@ export default function Navbar() {
 
                     <Link
                       to="/gallery"
-                      class="block py-2 pl-3 pr-4 text-black  rounded md:bg-transparent md:hover:text-textColorYellow md:p-0 "
+                      className="block py-2 pl-3 pr-4 text-black  rounded md:bg-transparent md:hover:text-textColorYellow md:p-0 "
                       aria-current="page"
                     >
                       Gallery
                     </Link>
+
+                    <Link
+                      to="/blogs"
+                      className="block py-2 pl-3 pr-4 text-black  rounded md:bg-transparent md:hover:text-textColorYellow md:p-0 "
+                      aria-current="page"
+                    >
+                      Blogs
+                    </Link>
+
                     <NavHashLink
                       smooth
                       to="/#contact-us"
@@ -151,7 +160,7 @@ export default function Navbar() {
                     <div className="flex flex-col px-2 pt-2 pb-2 space-y-5">
                       <Link
                         to="/"
-                        class="block py-2 pl-3 pr-4 text-black  rounded  md:hover:text-textColorYellow md:p-0"
+                        className="block py-2 pl-3 pr-4 text-black  rounded  md:hover:text-textColorYellow md:p-0"
                         aria-current="page"
                       >
                         Home
@@ -159,7 +168,7 @@ export default function Navbar() {
                       <NavbarDropdown />
                       <Link
                         to="/about-us"
-                        class="block py-2 pl-3 pr-4 text-black  rounded md:bg-transparent md:hover:text-textColorYellow md:p-0 "
+                        className="block py-2 pl-3 pr-4 text-black  rounded md:bg-transparent md:hover:text-textColorYellow md:p-0 "
                         aria-current="page"
                       >
                         About-Us
@@ -167,21 +176,30 @@ export default function Navbar() {
 
                       <Link
                         to="/gallery"
-                        class="block py-2 pl-3 pr-4 text-black  rounded md:bg-transparent md:hover:text-textColorYellow md:p-0 "
+                        className="block py-2 pl-3 pr-4 text-black  rounded md:bg-transparent md:hover:text-textColorYellow md:p-0 "
                         aria-current="page"
                       >
                         Gallery
                       </Link>
+
+                       <Link
+                        to="/blogs"
+                        className="block py-2 pl-3 pr-4 text-black  rounded md:bg-transparent md:hover:text-textColorYellow md:p-0 "
+                        aria-current="page"
+                      >
+                        Blogs
+                      </Link>
+
                       <Link
                         to="/"
-                        class="block py-2 pl-3 pr-4 text-black  rounded md:bg-transparent md:hover:text-textColorYellow md:p-0 "
+                        className="block py-2 pl-3 pr-4 text-black  rounded md:bg-transparent md:hover:text-textColorYellow md:p-0 "
                         aria-current="page"
                       >
                         Contact-Us
                       </Link>
                       <Link
                         to="/"
-                        class="bg-textColorYellow hover:bg-yellow-400 px-4 border border-yellow-700 block py-2 pl-3 pr-4 text-black  rounded  "
+                        className="bg-textColorYellow hover:bg-yellow-400 px-4 border border-yellow-700 block py-2 pl-3 pr-4 text-black  rounded  "
                         aria-current="page"
                       >
                         Buy Now

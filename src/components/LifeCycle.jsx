@@ -12,13 +12,13 @@ const LifeCycle = () => {
         Our Product Life Cycle
       </p>
 
-      <div class="timeline">
-        <div class="timeline_container left">
-          <div class="timeline_count">Day 1</div>
+      <div className="timeline">
+        <div className="timeline_container left">
+          <div className="timeline_count">Day 1</div>
 
-          <img class="timeline_icon" src={handPicked} alt="" />
+          <img className="timeline_icon" src={handPicked} alt="" />
 
-          <div class="timeline_content">
+          <div className="timeline_content">
             <h2>We hand-pick our mangoes:</h2>
             <p>
               Mangoes are carefully handpicked and systematically packed in
@@ -27,12 +27,12 @@ const LifeCycle = () => {
           </div>
         </div>
 
-        <div class="timeline_container right">
-          <div class="timeline_count">Day 2</div>
+        <div className="timeline_container right">
+          <div className="timeline_count">Day 2</div>
 
-          <img class="timeline_icon" src={transportation} alt="" />
+          <img className="timeline_icon" src={transportation} alt="" />
 
-          <div class="timeline_content">
+          <div className="timeline_content">
             <h2>Careful Transportation:</h2>
             <p>
               Packed mangoes are then carefully transported to our stores in
@@ -40,12 +40,12 @@ const LifeCycle = () => {
             </p>
           </div>
         </div>
-        <div class="timeline_container left">
-          <div class="timeline_count">Day 3</div>
+        <div className="timeline_container left">
+          <div className="timeline_count">Day 3</div>
 
-          <img class="timeline_icon" src={mango} alt="" />
+          <img className="timeline_icon" src={mango} alt="" />
 
-          <div class="timeline_content">
+          <div className="timeline_content">
             <h2>Ripening of the mangoes:</h2>
             <p>
               Ripening process of the mangoes takes place naturally in the
@@ -53,12 +53,12 @@ const LifeCycle = () => {
             </p>
           </div>
         </div>
-        <div class="timeline_container right">
-          <div class="timeline_count">Day 12</div>
+        <div className="timeline_container right">
+          <div className="timeline_count">Day 12</div>
 
-          <img class="timeline_icon" src={love} alt="" />
+          <img className="timeline_icon" src={love} alt="" />
 
-          <div class="timeline_content">
+          <div className="timeline_content">
             <h2>Love from the customers:</h2>
             <p>
               Mangoes are ready to eat and then customer enjoys pure and best

@@ -14,6 +14,8 @@ import Gallery from "./components/Gallery";
 import AmrutPairi from "./pages/products/AmrutPairi";
 import GanpatiMurti from "./pages/products/GanpatiMurti";
 import Faral from "./pages/products/Faral";
+import Blogs from "./pages/Blogs";
+import BlogPage from "./pages/BlogPage";
 
 const App = () => {
   return (
@@ -24,7 +26,10 @@ const App = () => {
         <Route exact path="/" element={<Home />} />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/gallery" element={<Gallery />} />
+        <Route path="/blogs" element={<Blogs/>} />
+        <Route path="/blogs/:blog_id" element={<BlogPage />} />
       </Routes>
+
       <Routes>
         <Route path="/ratnagari" element={<Ratnagari />} />
         <Route path="/devgad" element={<Devgad />} />
