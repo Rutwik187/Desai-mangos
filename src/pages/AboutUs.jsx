@@ -7,7 +7,7 @@ import shop_shanipar from "../img/shop_shanipar.jpg";
 
 const AboutUs = () => {
   return (
-    <div className="m-6 md:m-12 xl:m-20">
+    <div className="m-6 md:m-12 xl:m-20 ">
       <h1 className="mb-4 font-semibold leading-none tracking-tight text-gray-900 text-2xl md:text-3xl lg:text-5xl ">
         About Us
       </h1>

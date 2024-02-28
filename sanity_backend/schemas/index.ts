@@ -8,4 +8,4 @@ import miniBanner from "./miniBanner"
 import coupon from "./Coupon"
 import brand from './brand'
 import blog from './blog'
-export const schemaTypes = [blockContent,blog]
+export const schemaTypes = [category, product, blockContent, blog]

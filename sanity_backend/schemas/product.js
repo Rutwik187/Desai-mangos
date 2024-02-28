@@ -9,32 +9,19 @@ export default {
     {
       name: 'image',
       title: 'Image',
-      type: 'array',
-      of: [
-        {
-          type: 'image'
-        },
-
-      ],
+          type: 'image',
       options: {
         hotspot: true,
       },
+    },
 
-      validation: Rule => Rule.custom(images => {
-        if (!images || !Array.isArray(images)) {
-          return true; // No images to validate, so it's valid
-        }
-
-        const maxSizeInBytes = 2 * 1024 * 1024; // 2MB in bytes
-
-        const oversizedImages = images.filter(image => image.size > maxSizeInBytes);
-        if (oversizedImages.length > 0) {
-          return 'Some images exceed the maximum size of 2MB.';
-        }
-
-        return true; // All images are within size limits
-      }),
-
+    {
+      name: 'coverImg',
+      title: 'Cover Image',
+      type: 'image',
+      options: {
+        hotspot: true,
+      },
     },
     {
       name: 'name',
@@ -52,12 +39,7 @@ export default {
       },
       validation: Rule => Rule.required(),
     },
-    {
-      name: 'quantityMass',
-      title: 'quantity [also mention unit eg. kg, gm, liters]',
-      type: 'string',
-
-    },
+   
     {
       name: "category",
       title: "Category",
@@ -65,20 +47,6 @@ export default {
       to: [{ type: "category" }],
       validation: Rule => Rule.required(),
     },
-    {
-      name: 'listPrice',
-      title: 'List Price [MRP of Product]',
-      type: 'number',
-
-    },
-    {
-      name: 'discountedPrice',
-      title: 'Discounted Price [Price after discounting]',
-      type: 'number',
-      validation: Rule => Rule.max(Rule.valueOfField('listPrice'))
-
-    },
-
     {
       name: 'description',
       type: 'blockContent',

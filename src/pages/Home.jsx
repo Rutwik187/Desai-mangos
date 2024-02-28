@@ -10,6 +10,8 @@ import Testimonials from "../components/Testimonials";
 
 import Carousel from "../components/Carousel";
 import CarouselCompo from "../components/Carousel";
+import Categories from "../components/Categories";
+import FeaturedProducts from "../components/FeaturedProducts";
 
 function Home() {
   return (
@@ -18,6 +20,8 @@ function Home() {
       {/* <CarouselCompo /> */}
       {/* <HomeImagesSlider /> */}
       <Features />
+      <Categories />
+      <FeaturedProducts />
       <HomeProducts />
       {/* <Banner /> */}
       <LifeCycle />

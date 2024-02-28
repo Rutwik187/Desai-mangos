@@ -17,9 +17,8 @@ const Blogs = () => {
         };
 
         fetchBlogs();
-    }, []); // Empty dependency array to run effect only once
+    }, []); 
 
-    console.log(blogs)
     return (
         <>
 

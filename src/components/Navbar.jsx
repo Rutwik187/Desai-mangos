@@ -1,11 +1,10 @@
-import { useState } from "react";
 import logo from "../img/logo.png";
 import { Link } from "react-router-dom";
 
 import React, { Fragment, lazy } from "react";
 import { Menu, Transition } from "@headlessui/react";
-import NavbarDropdown from "./NavbarDropdown";
 import { NavHashLink } from "react-router-hash-link";
+import CategoryDropdown from "./CategoryDropdown";
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -75,7 +74,7 @@ export default function Navbar() {
                     >
                       Home
                     </Link>
-                    <NavbarDropdown />
+                    <CategoryDropdown />
                     <Link
                       to="/about-us"
                       className="block py-2 pl-3 pr-4 text-black  rounded md:bg-transparent md:hover:text-textColorYellow md:p-0 "
@@ -165,7 +164,7 @@ export default function Navbar() {
                       >
                         Home
                       </Link>
-                      <NavbarDropdown />
+                      <CategoryDropdown />
                       <Link
                         to="/about-us"
                         className="block py-2 pl-3 pr-4 text-black  rounded md:bg-transparent md:hover:text-textColorYellow md:p-0 "
@@ -182,7 +181,7 @@ export default function Navbar() {
                         Gallery
                       </Link>
 
-                       <Link
+                      <Link
                         to="/blogs"
                         className="block py-2 pl-3 pr-4 text-black  rounded md:bg-transparent md:hover:text-textColorYellow md:p-0 "
                         aria-current="page"

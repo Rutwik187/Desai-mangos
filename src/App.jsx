@@ -16,6 +16,9 @@ import GanpatiMurti from "./pages/products/GanpatiMurti";
 import Faral from "./pages/products/Faral";
 import Blogs from "./pages/Blogs";
 import BlogPage from "./pages/BlogPage";
+import Categories from "./components/Categories";
+import CategoryProducts from "./components/CategoryProducts";
+import ProductDesc from "./pages/ProductDesc";
 
 const App = () => {
   return (
@@ -26,8 +29,10 @@ const App = () => {
         <Route exact path="/" element={<Home />} />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/gallery" element={<Gallery />} />
-        <Route path="/blogs" element={<Blogs/>} />
+        <Route path="/blogs" element={<Blogs />} />
         <Route path="/blogs/:blog_id" element={<BlogPage />} />
+        <Route path="/category/:category_name" element={<CategoryProducts />} />
+        <Route path="/products/:product_name" element={<ProductDesc />} />
       </Routes>
 
       <Routes>
