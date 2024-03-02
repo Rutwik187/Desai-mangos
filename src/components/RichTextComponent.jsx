@@ -6,7 +6,7 @@ export const RichTextComponent = {
   types: {
     image: ({ value }) => {
       return (
-        <div className="relative m-10 mx-auto h-96 w-full">
+        <div className=" m-4 mx-auto h-60  w-auto flex flex-row">
           <img
             className="object-contain mx-auto my-3"
             src={urlFor(value).url()}
@@ -39,7 +39,6 @@ export const RichTextComponent = {
       );
     },
   },
-
 
   list: {
     // Ex. 1: customizing common list types

@@ -28,11 +28,11 @@ const Categories = () => {
         {categories.map((category, index) => {
           return (
             <Link to={`/category/${category.slug.current}`} key={index}>
-              <div className="block group w-28 md:w-40 cursor-pointer m-2 ">
+              <div className="block group w-28 md:w-48 cursor-pointer m-2 ">
                 <img
                   src={urlFor(category.image).url()}
                   alt=""
-                  className=" w-40 h-32 object-contain transition duration-500 group-hover:scale-105 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] hover:shadow-lg p-3 rounded-lg"
+                  className=" w-48 h-48 object-contain transition duration-500 group-hover:scale-105 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] hover:shadow-lg p-3 rounded-lg"
                 />
 
                 <div className="mt-3">

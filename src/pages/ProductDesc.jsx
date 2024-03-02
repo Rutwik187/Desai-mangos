@@ -20,7 +20,6 @@ const ProductDesc = () => {
           `*[_type == "product" && slug.current == '${product_name}'][0]`
         );
         console.log(product);
-        console.log(urlFor(product.coverImg).url());
 
         setImg(urlFor(product.coverImg).url());
 
@@ -63,6 +62,12 @@ const ProductDesc = () => {
 
             <BuyNowButtons item={product.name} />
           </div>
+        </div>
+        <div>
+          <PortableText
+            value={product?.extraDesc}
+            components={RichTextComponent}
+          />
         </div>
       </div>
     </section>

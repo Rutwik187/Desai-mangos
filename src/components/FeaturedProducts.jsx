@@ -44,7 +44,7 @@ const FeaturedProducts = () => {
               />
             </motion.div>
 
-            <p className="text-textColor font-semibold text-base md:text-lg">
+            <p className="text-center text-textColor font-semibold text-base md:text-lg">
               {item?.name}
             </p>
 

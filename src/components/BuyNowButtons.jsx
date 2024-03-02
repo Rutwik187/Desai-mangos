@@ -1,9 +1,7 @@
 import React from "react";
 
 const BuyNowButtons = ({ item }) => {
-  const whatsAppUrl = `Thank%20you%20for%20your%20${item}%20order%20from%20Desai%20Bandhu%20Mangoes!%20Hope%20you%20love%20them!
-`;
-
+  const whatsAppUrl = `Hello%21%20I%20would%20like%20to%20order%20${item}.%20Please%20confirm%20availability%20and%20price.`;
   return (
     <div className="flex gap-4 items-center">
       <a href={`https://wa.me/919021538564/?text=${whatsAppUrl}`}>

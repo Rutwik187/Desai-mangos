@@ -8,10 +8,9 @@ import LifeCycle from "../components/LifeCycle";
 
 import Testimonials from "../components/Testimonials";
 
-import Carousel from "../components/Carousel";
-import CarouselCompo from "../components/Carousel";
 import Categories from "../components/Categories";
 import FeaturedProducts from "../components/FeaturedProducts";
+import Blogs from "../components/Blogs";
 
 function Home() {
   return (
@@ -22,10 +21,11 @@ function Home() {
       <Features />
       <Categories />
       <FeaturedProducts />
-      <HomeProducts />
+      {/* <HomeProducts /> */}
       {/* <Banner /> */}
       <LifeCycle />
       <Testimonials />
+      <Blogs />
       <CustomerReviews />
       <ContactUs />
     </div>

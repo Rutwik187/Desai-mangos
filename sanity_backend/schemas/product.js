@@ -54,6 +54,12 @@ export default {
 
     },
     {
+      name: 'extraDesc',
+      type: 'blockContent',
+      title: 'Extra Description Or Images',
+
+    },
+    {
       name: 'featureProduct',
       title: 'Feature This Product',
       type: 'boolean',
