@@ -29,9 +29,6 @@ const BlogPage = () => {
     return <div>Loading...</div>;
   }
 
-  console.log("id", blog_id);
-  console.log(post);
-
   return (
     <div className="container px-4 mx-auto py-6 md:py-10">
       <div className="mx-auto max-w-4xl">
@@ -49,7 +46,7 @@ const BlogPage = () => {
           src={urlFor(post.mainImage).url()}
           alt={post.title}
         />
-        <div className="prose max-w-none pt-8">
+        <div className="prose max-w-none pt-8 m-4">
           <PortableText value={post.body} components={RichTextComponent} />
         </div>
       </div>

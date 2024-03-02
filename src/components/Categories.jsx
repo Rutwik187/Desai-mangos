@@ -28,7 +28,7 @@ const Categories = () => {
         {categories.map((category, index) => {
           return (
             <Link to={`/category/${category.slug.current}`} key={index}>
-              <div className="block group w-28 md:w-48 cursor-pointer m-2 ">
+              <div className="block group w-48 md:w-48 cursor-pointer m-2 ">
                 <img
                   src={urlFor(category.image).url()}
                   alt=""
