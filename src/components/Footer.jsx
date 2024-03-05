@@ -56,7 +56,59 @@ const Footer = () => {
             </li>
           </ul>
         </nav>
+
+        <p className="text-lg font-medium text-gray-900">Whatsapp Chat</p>
+        <ul className=" text-sm flex gap-5 items-center justify-center">
+          <li>
+            <a
+              className="group flex justify-center gap-1.5 sm:justify-start"
+              href="https://wa.me/919850000093"
+            >
+              <span className="text-gray-700 transition group-hover:text-gray-700/75">
+                Live Chat At Karve Road
+              </span>
+
+              <span className="relative flex h-2 w-2">
+                <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-teal-400 opacity-75"></span>
+                <span className="relative inline-flex h-2 w-2 rounded-full bg-teal-500"></span>
+              </span>
+            </a>
+          </li>
+
+          <li>
+            <a
+              className="group flex justify-center gap-1.5 sm:justify-start"
+              href="https://wa.me/c/919021538564"
+            >
+              <span className="text-gray-700 transition group-hover:text-gray-700/75">
+                Live Chat Shanipar
+              </span>
+
+              <span className="relative flex h-2 w-2">
+                <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-teal-400 opacity-75"></span>
+                <span className="relative inline-flex h-2 w-2 rounded-full bg-teal-500"></span>
+              </span>
+            </a>
+          </li>
+
+          <li>
+            <a
+              className="group flex justify-center gap-1.5 sm:justify-start"
+              href="https://wa.me/919850000093"
+            >
+              <span className="text-gray-700 transition group-hover:text-gray-700/75">
+                Live Chat At Baner
+              </span>
+
+              <span className="relative flex h-2 w-2">
+                <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-teal-400 opacity-75"></span>
+                <span className="relative inline-flex h-2 w-2 rounded-full bg-teal-500"></span>
+              </span>
+            </a>
+          </li>
+        </ul>
       </div>
+
       <div className="mx md:m-0 m-auto max-w-screen-xl px-4  pb-6 sm:px-6 lg:px-8 ">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
           <div>
@@ -173,52 +225,6 @@ const Footer = () => {
                     >
                       Gallery
                     </Link>
-                  </li>
-
-                  <li>
-                    <a
-                      className="group flex justify-center gap-1.5 sm:justify-start"
-                      href="https://wa.me/c/919021538564"
-                    >
-                      <span className="text-gray-700 transition group-hover:text-gray-700/75">
-                        Live Chat Shanipar
-                      </span>
-
-                      <span className="relative flex h-2 w-2">
-                        <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-teal-400 opacity-75"></span>
-                        <span className="relative inline-flex h-2 w-2 rounded-full bg-teal-500"></span>
-                      </span>
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      className="group flex justify-center gap-1.5 sm:justify-start"
-                      href="https://wa.me/919850000093"
-                    >
-                      <span className="text-gray-700 transition group-hover:text-gray-700/75">
-                        Live Chat At Karve Road
-                      </span>
-
-                      <span className="relative flex h-2 w-2">
-                        <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-teal-400 opacity-75"></span>
-                        <span className="relative inline-flex h-2 w-2 rounded-full bg-teal-500"></span>
-                      </span>
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      className="group flex justify-center gap-1.5 sm:justify-start"
-                      href="https://wa.me/919850000093"
-                    >
-                      <span className="text-gray-700 transition group-hover:text-gray-700/75">
-                        Live Chat At Baner
-                      </span>
-
-                      <span className="relative flex h-2 w-2">
-                        <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-teal-400 opacity-75"></span>
-                        <span className="relative inline-flex h-2 w-2 rounded-full bg-teal-500"></span>
-                      </span>
-                    </a>
                   </li>
                 </ul>
               </nav>

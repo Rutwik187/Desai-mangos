@@ -20,7 +20,10 @@ const Categories = () => {
   }, []);
 
   return (
-    <div className="w-auto m-5 md:m-12 flex flex-col md:gap-0 ">
+    <section
+      id="categories"
+      className="w-auto m-5 md:m-12 flex flex-col md:gap-0 "
+    >
       <p className="xl:text-4xl text-3xl font-semibold capitalize text-headingColor relative before:absolute before:rounded-lg before:content before:w-32 before:h-1 before:-bottom-2 before:left-0 before:bg-gradient-to-tr from-yellow-200 to-yellow-400 transition-all ease-in-out duration-100">
         Categories
       </p>
@@ -45,7 +48,7 @@ const Categories = () => {
           );
         })}
       </div>
-    </div>
+    </section>
   );
 };
 

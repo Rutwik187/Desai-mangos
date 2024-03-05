@@ -108,13 +108,13 @@ export default function Navbar() {
                       Contact Us
                     </NavHashLink>
 
-                    <Link
-                      to="/"
+                    <NavHashLink
+                      to="/#categories"
                       className="bg-textColorYellow hover:bg-yellow-300 px-4 border border-yellow-700 block py-2 pl-3 pr-4 text-black  rounded "
                       aria-current="page"
                     >
                       Buy Now
-                    </Link>
+                    </NavHashLink>
                   </div>
                 </div>
               </nav>
