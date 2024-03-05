@@ -189,20 +189,22 @@ export default function Navbar() {
                         Blogs
                       </Link>
 
-                      <Link
-                        to="/"
+                      <NavHashLink
+                        to="/#contact-us"
+                        smooth
                         className="block py-2 pl-3 pr-4 text-black  rounded md:bg-transparent md:hover:text-textColorYellow md:p-0 "
                         aria-current="page"
                       >
                         Contact-Us
-                      </Link>
-                      <Link
-                        to="/"
+                      </NavHashLink>
+                      <NavHashLink
+                        to="/#categories"
+                        smooth
                         className="bg-textColorYellow hover:bg-yellow-400 px-4 border border-yellow-700 block py-2 pl-3 pr-4 text-black  rounded  "
                         aria-current="page"
                       >
                         Buy Now
-                      </Link>
+                      </NavHashLink>
                     </div>
                   </div>
                 </div>
