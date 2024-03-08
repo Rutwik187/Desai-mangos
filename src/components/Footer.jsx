@@ -62,10 +62,10 @@ const Footer = () => {
           <li>
             <a
               className="group flex justify-center gap-1.5 sm:justify-start"
-              href="https://wa.me/919850000093"
+              href="https://wa.me/c/919021538564"
             >
               <span className="text-gray-700 transition group-hover:text-gray-700/75">
-                Live Chat At Karve Road
+                Live Chat At Shanipar
               </span>
 
               <span className="relative flex h-2 w-2">
@@ -78,10 +78,10 @@ const Footer = () => {
           <li>
             <a
               className="group flex justify-center gap-1.5 sm:justify-start"
-              href="https://wa.me/c/919021538564"
+              href="https://wa.me/919850000093"
             >
               <span className="text-gray-700 transition group-hover:text-gray-700/75">
-                Live Chat Shanipar
+                Live Chat At Karve Road
               </span>
 
               <span className="relative flex h-2 w-2">

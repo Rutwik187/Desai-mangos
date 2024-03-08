@@ -20,8 +20,6 @@ const CategoryProducts = () => {
         const products = await client.fetch(
           `*[_type == "product" && category._ref == '${category._id}']`
         );
-
-        console.log(products);
         setProducts(products);
       } catch (error) {
         console.error("Error fetching products:", error);
