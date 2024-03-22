@@ -107,7 +107,7 @@ const CustomerReviews = () => {
         Review - Shanipar Branch
       </p>
       <iframe
-        src="https://widgets.sociablekit.com/google-reviews/iframe/25376044"
+        src="https://widgets.sociablekit.com/google-reviews/iframe/25383008"
         frameborder="0"
         width="100%"
         height="500"
