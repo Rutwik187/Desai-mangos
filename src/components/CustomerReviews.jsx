@@ -103,7 +103,7 @@ const CustomerReviews = () => {
         height="500"
       ></iframe>
 
-      <p className="mb-4 xl:text-4xl text-3xl font-semibold capitalize text-headingColor relative before:absolute before:rounded-lg before:content before:w-32 before:h-1 before:-bottom-2 before:left-0 before:bg-gradient-to-tr from-yellow-200 to-yellow-5 transition-all ease-in-out duration-100">
+      <p className="my-4 xl:text-4xl text-3xl font-semibold capitalize text-headingColor relative before:absolute before:rounded-lg before:content before:w-32 before:h-1 before:-bottom-2 before:left-0 before:bg-gradient-to-tr from-yellow-200 to-yellow-5 transition-all ease-in-out duration-100">
         Review - Shanipar Branch
       </p>
       <iframe
