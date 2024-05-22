@@ -10,7 +10,7 @@ export default defineConfig({
   name: 'default',
   title: 'Priyam E-Commerce',
 
-  projectId: '0t3t047i',
+  projectId: '0t3t047',
   dataset: 'production',
 
   plugins: [deskTool(), visionTool(), ...(isDev ? devOnlyPlugins : [])],

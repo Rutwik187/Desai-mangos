@@ -21,12 +21,28 @@ import CategoryProducts from "./components/CategoryProducts";
 import ProductDesc from "./pages/ProductDesc";
 
 const App = () => {
+  {
+    console.error(
+      ```FirebaseAuthError: Decoding Firebase ID token failed. Make sure you passed the entire string JWT which represents an ID token. See https://firebase.google.com/docs/auth/admin/verify-id-tokens for details on how to retrieve an ID token.
+    at FirebaseAuthError.FirebaseError [as constructor] (thepathtomyfolder\node_modules\firebase-admin\lib\utils\error.js:44:28)
+    at FirebaseAuthError.PrefixedFirebaseError [as constructor] (thepathtomyfolder\node_modules\firebase-admin\lib\utils\error.js:90:28)
+    at new FirebaseAuthError (thepathtomyfolder\node_modules\firebase-admin\lib\utils\error.js:149:16)
+    at thepathtomyfolder\node_modules\firebase-admin\lib\auth\token-verifier.js:180:23
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  errorInfo: {
+    code: 'auth/argument-error',
+    message: 'Decoding Firebase ID token failed. Make sure you passed the entire string JWT which represents an ID token. See https://firebase.google.com/docs/auth/admin/verify-id-tokens for details on how to retrieve an ID token.'
+  },
+  codePrefix: 'auth'
+}```
+    );
+  }
   return (
     <BrowserRouter>
       <ScrollToTop />
-      <Navbar />
+      {/* <Navbar /> */}
       <Routes>
-        <Route exact path="/" element={<Home />} />
+        <Route path="/" />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/blogs" element={<Blogs />} />
@@ -43,7 +59,7 @@ const App = () => {
         <Route path="/faral" element={<Faral />} />
         <Route path="/ganesh-murti" element={<GanpatiMurti />} />
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
     </BrowserRouter>
   );
 };
